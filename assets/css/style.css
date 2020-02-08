@@ -254,6 +254,9 @@ nav a:hover {
   .main-section {
     width: 75%;
   }
+  .work {
+    width: 40%;
+  }
 }
 
 @media (max-width: 786px) {
@@ -278,7 +281,7 @@ nav a:hover {
     width: 50%;
   }
   .work {
-    width: 46.7%;
+    width: 45%;
     margin: 20px 0 15px
   }
 }
@@ -286,6 +289,28 @@ nav a:hover {
 @media (max-width: 640px) {
   #masthead {
     position: static;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+  }
+  nav {
+    float: none;
+    margin: 0;
+    text-align: center;
+  }
+  #logo {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #main-container {
+    padding-top: 0px;
+  }
+  .auth-image {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .work {
+    width: 100%;
   }
 }
 
