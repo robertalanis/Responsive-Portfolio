@@ -271,11 +271,15 @@ nav a:hover {
   .main-section {
     width: 100%;
   }
+  h1 {
+    margin-block-start: 0;
+  }
   .auth-image {
     width: 50%;
   }
   .work {
-    width: 46%;
+    width: 46.7%;
+    margin: 20px 0 15px
   }
 }
 
